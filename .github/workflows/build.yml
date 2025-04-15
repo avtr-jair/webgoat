@@ -6,9 +6,9 @@ on:
             - 'LICENSE'
             - 'docs/**'
         branches: [ main ]
-    push:
-        branches:
-            - main
+    #push:
+        #branches:
+            #- main
 
 jobs:
     pre-commit:
